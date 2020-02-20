@@ -34,7 +34,7 @@ function map(arr, fn){
     console.log(newArr);
 }
 
-
+//test
 map([1,2,3,4], function(val){
     return val * 2;
 });
