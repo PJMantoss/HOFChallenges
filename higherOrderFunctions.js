@@ -44,3 +44,4 @@ Write a function called reject which accepts two parameters an array and a callb
 The function should return a new array with all of the values that do not return 
 true to the callback. Here are two examples:
 */
+function reject(arr, fn){}
