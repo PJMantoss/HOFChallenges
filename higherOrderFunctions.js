@@ -24,7 +24,7 @@ each([1,2,3,4], function(val){
 /* Ex. 2
 Write a function called map which accepts two parameters: an array and a callback.
 The map function should return a new array with the result of each value being 
-passed to the callback function. Here's an example:
+passed to the callback function.
 */
 function map(arr, fn){
     let newArr = [];
@@ -42,7 +42,7 @@ map([1,2,3,4], function(val){
 /* Ex. 3
 Write a function called reject which accepts two parameters an array and a callback.
 The function should return a new array with all of the values that do not return 
-true to the callback. Here are two examples:
+true to the callback.
 */
 function reject(arr, fn){
     let result = [];
