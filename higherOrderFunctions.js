@@ -14,11 +14,19 @@ function each(arr, fn){
 each([1,2,3,4], function(val){
     console.log(val);
 });
+//1
+//2
+//3
+//4
 
 //test 2
 each([1,2,3,4], function(val){
     console.log(val*2);
 });
+//2
+//4
+//6
+//8
 
 
 /* Ex. 2
@@ -37,7 +45,7 @@ function map(arr, fn){
 //test
 map([1,2,3,4], function(val){
     return val * 2;
-});
+}); // [2,4,6,8]
 
 /* Ex. 3
 Write a function called reject which accepts two parameters an array and a callback.
