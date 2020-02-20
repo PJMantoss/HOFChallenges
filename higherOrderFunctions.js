@@ -38,3 +38,6 @@ function map(arr, fn){
 map([1,2,3,4], function(val){
     return val * 2;
 });
+
+/* Ex. 3
+*/
