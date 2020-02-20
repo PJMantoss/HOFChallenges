@@ -45,6 +45,11 @@ The function should return a new array with all of the values that do not return
 true to the callback.
 */
 function reject(arr, fn){
-    let result = [];
-    for (let i=0; i<arr.length; i++){}
+    let newArray = [];
+    for (let i=0; i<arr.length; i++){
+        if (arr[i] % 2 !== 0 || arr[i] > 2 == false){
+            newArray.push(fn(arr[i]));
+        }
+    }
+    console.log(newArray);
 }
