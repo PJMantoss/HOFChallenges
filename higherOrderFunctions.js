@@ -19,3 +19,10 @@ each([1,2,3,4], function(val){
 each([1,2,3,4], function(val){
     console.log(val*2);
 });
+
+
+/* Ex. 2
+Write a function called map which accepts two parameters: an array and a callback.
+The map function should return a new array with the result of each value being 
+passed to the callback function. Here's an example:
+*/
