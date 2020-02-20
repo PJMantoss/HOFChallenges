@@ -58,3 +58,8 @@ function reject(arr, fn){
 reject([1,2,3,4], function(val){
     return val > 2;
 }); // 1,2
+
+
+reject([2,3,4,5], function(val){
+    return val % 2 === 0;
+}); // 3, 5
