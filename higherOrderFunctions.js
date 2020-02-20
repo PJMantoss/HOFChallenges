@@ -47,7 +47,7 @@ true to the callback.
 function reject(arr, fn){
     let newArray = [];
     for (let i=0; i<arr.length; i++){
-        if (arr[i] % 2 !== 0 || arr[i] > 2 == false){
+        if (arr[i] % 2 !== 0 || !arr[i] > 2){
             newArray.push(fn(arr[i]));
         }
     }
