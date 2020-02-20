@@ -54,3 +54,7 @@ function reject(arr, fn){
     }
     console.log(newArray);
 }
+
+reject([1,2,3,4], function(val){
+    return val > 2;
+}); // 1,2
