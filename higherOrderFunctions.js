@@ -33,3 +33,8 @@ function map(arr, fn){
     }
     console.log(newArr);
 }
+
+
+map([1,2,3,4], function(val){
+    return val * 2;
+});
