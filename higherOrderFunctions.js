@@ -49,7 +49,7 @@ function reject(arr, fn){
     let newArray = [];
     for (let i=0; i<arr.length; i++){
         if (!fn(arr[i])){
-            newArray.push();
+            newArray.push(arr[i]);
         }
     }
     console.log(newArray);
